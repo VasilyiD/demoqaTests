@@ -1,14 +1,14 @@
-package demoqa;
+/*
+package demoqa.tests;
 import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
-import static demoqa.pages.MainPage.*;
-
-public class RegistrationFormTests extends BaseTest {
-
+import static demoqa.pages.RegistrationPage.*;
+public class RegistrationFormTestsOldStyle extends BaseTest
+{
     @Test
-    void registrationValidData() {
+    void registrationValidDataTest() {
 
         $(NAMEFIELD).setValue(NAME);
         $(LASTNAMEFIELD).setValue(LASTNAME);
@@ -42,4 +42,4 @@ public class RegistrationFormTests extends BaseTest {
         $(".modal-body").shouldBe(text("Address")).shouldHave(text("Bosser-city, Smith st., 33"));
         $(".modal-body").shouldBe(text("State and City")).shouldHave(text("Haryana Karnal"));
     }
-}
+}*/
