@@ -27,7 +27,7 @@ public class BaseTest {
                 "enableVNC", true,
                 "enableVideo", true
         ));
-        capabilities.setCapability(CapabilityType.UNHANDLED_PROMPT_BEHAVIOUR, UnexpectedAlertBehaviour.IGNORE);
+        capabilities.setCapability(CapabilityType.UNHANDLED_PROMPT_BEHAVIOUR, UnexpectedAlertBehaviour.ACCEPT);
 
         Configuration.browserCapabilities = capabilities;
     }
