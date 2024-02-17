@@ -1,5 +1,4 @@
 package demoqa.tests;
-
 import com.github.javafaker.Faker;
 
 import java.text.SimpleDateFormat;
