@@ -4,6 +4,8 @@ import com.codeborne.selenide.logevents.SelenideLogger;
 import demoqa.pages.RegistrationPage;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.*;
+import org.openqa.selenium.UnexpectedAlertBehaviour;
+import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import java.util.Map;
 import demoqa.helpers.Attach;
@@ -25,6 +27,7 @@ public class BaseTest {
                 "enableVNC", true,
                 "enableVideo", true
         ));
+        capabilities.setCapability(CapabilityType.UNHANDLED_PROMPT_BEHAVIOUR, UnexpectedAlertBehaviour.IGNORE);
 
         Configuration.browserCapabilities = capabilities;
     }
