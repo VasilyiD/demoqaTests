@@ -13,7 +13,7 @@ public class TestData {
     String userEmail = faker.internet().emailAddress();
     String userGender = faker.options().option("Male", "Female", "Other");
     String userPhoneNumber = faker.phoneNumber().subscriberNumber(10);
-    String day = faker.number().numberBetween(1, 28) + "";
+    String day = setDay(faker.number().numberBetween(1, 28) + "");
     String month = faker.options().option("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
     String year = faker.number().numberBetween(1940, 2004) + "";
     String[] dayMonthYear = getRandomDate();
@@ -29,13 +29,13 @@ public class TestData {
 
 
 
-/*    public String setDay(String day) {
+    public String setDay(String day) {
         if (day.length()-1 > 1) {
             return "0" + day;
         } else {
             return day;
         }
-    }*/
+    }
     public String setRandomCity(String state) {
         switch (state) {
             case ("Haryana"):
