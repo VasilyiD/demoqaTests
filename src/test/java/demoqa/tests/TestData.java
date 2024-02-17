@@ -30,7 +30,7 @@ public class TestData {
 
 
     public String setDay(String day) {
-        if (day.length()-1 > 1) {
+        if (day.toCharArray().length < 2) {
             return "0" + day;
         } else {
             return day;
