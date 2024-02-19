@@ -33,8 +33,7 @@ public class RegistrationPage {
         $(".practice-form-wrapper").shouldHave(text(TITLE_TEXT));
         executeJavaScript("$('#fixedban').remove()");
         executeJavaScript("$('footer').remove()");
-        executeJavaScript("$('#adplus-anchor').remove()");
-        // $(".fc-button-label").shouldHave(text("Consent")).click();
+        $(".fc-button-label").shouldHave(text("Consent")).click();
 
         return this;
     }
