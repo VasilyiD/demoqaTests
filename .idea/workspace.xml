@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bc78ffc8-2b9f-40b2-9897-bc965f655a51" name="Changes" comment="Jenkins ParametrizationTests" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demoqaTests" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demoqaTests" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="JE" />
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main/JE" />
+                <branch-info repo="$PROJECT_DIR$" source="main/main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;assignee&quot;: &quot;VasilyiD&quot;,
+      &quot;reviewState&quot;: &quot;NO_REVIEW&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;VasilyiD&quot;,
+    &quot;reviewState&quot;: &quot;NO_REVIEW&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="3a715418-839c-4b4b-8a27-bfd2c454cba9" />
+        <option name="url" value="https://github.com/VasilyiD/demoqaTests.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/demoqa/tests/RegistrationFormTests.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2bm4twvjClL4WwqW8BxPCstFb9m" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.RandomnUtils.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RegistrationForm.registrationValidData.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RegistrationFormTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RegistrationFormTests.registrationValidData.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RegistrationFormTests.registrationValidDataTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegistrationFormTests.registrationValidData.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegistrationFormTests.registrationValidDataTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dvv/dataTest&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/QAAUTO/projects/demoqaTests&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Gradle.RegistrationFormTests.registrationValidDataTest">
+    <configuration name="RegistrationFormTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;demoqa.RegistrationFormTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="RegistrationFormTests.registrationValidData" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--scan" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;demoqa.RegistrationFormTests.registrationValidData&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="RegistrationFormTests.registrationValidDataTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;demoqa.tests.RegistrationFormTests.registrationValidDataTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="RegistrationFormTests.registrationValidData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demoqaTests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demoqa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demoqa.tests" />
+      <option name="MAIN_CLASS_NAME" value="demoqa.tests.RegistrationFormTests" />
+      <option name="METHOD_NAME" value="registrationValidData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationFormTests.registrationValidDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demoqaTests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demoqa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demoqa.tests" />
+      <option name="MAIN_CLASS_NAME" value="demoqa.tests.RegistrationFormTests" />
+      <option name="METHOD_NAME" value="registrationValidDataTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RegistrationFormTests.registrationValidDataTest" />
+        <item itemvalue="JUnit.RegistrationFormTests.registrationValidData" />
+        <item itemvalue="Gradle.RegistrationFormTests.registrationValidDataTest" />
+        <item itemvalue="Gradle.RegistrationFormTests.registrationValidData" />
+        <item itemvalue="Gradle.RegistrationFormTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc78ffc8-2b9f-40b2-9897-bc965f655a51" name="Changes" comment="" />
+      <created>1706807141218</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706807141218</updated>
+    </task>
+    <task id="LOCAL-00001" summary="RegistrationFormTest 1st version">
+      <option name="closed" value="true" />
+      <created>1707054768115</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707054768115</updated>
+    </task>
+    <task id="LOCAL-00002" summary="RegistrationFormTest POM version 1.0">
+      <option name="closed" value="true" />
+      <created>1707166089142</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707166089142</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added Faker Data">
+      <option name="closed" value="true" />
+      <created>1707854861763</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707854861763</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added Allure and Selenoid">
+      <option name="closed" value="true" />
+      <created>1708177314373</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708177314373</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added Allure and Selenoid">
+      <option name="closed" value="true" />
+      <created>1708190166329</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708190166329</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added Allure and Selenoid">
+      <option name="closed" value="true" />
+      <created>1708190510225</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708190510225</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added Allure and Selenoid">
+      <option name="closed" value="true" />
+      <created>1708196144198</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708196144198</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added Allure and Selenoid">
+      <option name="closed" value="true" />
+      <created>1708197233096</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708197233096</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added Allure and Selenoid">
+      <option name="closed" value="true" />
+      <created>1708197382746</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708197382746</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added Allure and Selenoid">
+      <option name="closed" value="true" />
+      <created>1708197830834</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708197830834</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added Allure and Selenoid">
+      <option name="closed" value="true" />
+      <created>1708197990720</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1708197990720</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added Allure and Selenoid">
+      <option name="closed" value="true" />
+      <created>1708198108227</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1708198108227</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added Allure and Selenoid v1.2">
+      <option name="closed" value="true" />
+      <created>1708198307968</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1708198307968</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added Allure and Selenoid v1.2">
+      <option name="closed" value="true" />
+      <created>1708199797479</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1708199797479</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added Allure and Selenoid v2.0">
+      <option name="closed" value="true" />
+      <created>1708200690657</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1708200690657</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Jenkins ParametrizationTests">
+      <option name="closed" value="true" />
+      <created>1708252881562</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1708252881562</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Jenkins ParametrizationTests">
+      <option name="closed" value="true" />
+      <created>1708361436772</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1708361436772</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="RegistrationFormTest 1st version" />
+    <MESSAGE value="RegistrationFormTest POM version 1.0" />
+    <MESSAGE value="Added Faker Data" />
+    <MESSAGE value="Added Allure and Selenoid" />
+    <MESSAGE value="Added Allure and Selenoid v1.2" />
+    <MESSAGE value="Added Allure and Selenoid v2.0" />
+    <MESSAGE value="Jenkins ParametrizationTests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jenkins ParametrizationTests" />
+  </component>
+</project>

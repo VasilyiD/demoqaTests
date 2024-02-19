@@ -1,0 +1,33 @@
+Index: src/test/java/demoqa/tests/BaseTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package demoqa.tests;\r\nimport com.codeborne.selenide.Configuration;\r\nimport com.codeborne.selenide.logevents.SelenideLogger;\r\nimport demoqa.pages.RegistrationPage;\r\nimport io.qameta.allure.selenide.AllureSelenide;\r\nimport org.junit.jupiter.api.*;\r\nimport org.openqa.selenium.remote.DesiredCapabilities;\r\nimport java.util.Map;\r\nimport demoqa.helpers.Attach;\r\npublic class BaseTest {\r\n\r\n    RegistrationPage registrationPage = new RegistrationPage();\r\n    TestData testData = new TestData();\r\n\r\n    @BeforeAll\r\n    public static void beforeAll() {\r\n\r\n        Configuration.baseUrl = \"https://demoqa.com\";\r\n        Configuration.browser = \"chrome\";\r\n        Configuration.browserSize = \"1920x1080\";\r\n        Configuration.pageLoadTimeout = 90000;\r\n        Configuration.remote = \"https://user1:1234@selenoid.autotests.cloud/wd/hub\";\r\n\r\n        DesiredCapabilities capabilities = new DesiredCapabilities();\r\n        capabilities.setCapability(\"selenoid:options\", Map.<String, Object>of(\r\n                \"enableVNC\", true,\r\n                \"enableVideo\", true\r\n        ));\r\n        Configuration.browserCapabilities = capabilities;\r\n\r\n    }\r\n    @AfterAll\r\n    public static void afterAll() {\r\n        System.out.println(\"TEST COMPLETED\");\r\n    }\r\n    @BeforeEach\r\n    void addListener() {\r\n        SelenideLogger.addListener(\"AllureSelenide\", new AllureSelenide());\r\n    }\r\n    @AfterEach\r\n    void addAttachments() {\r\n        Attach.screenshotAs(\"Last screenshot\");\r\n        Attach.pageSource();\r\n        Attach.browserConsoleLogs();\r\n        Attach.addVideo();\r\n    }\r\n\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/demoqa/tests/BaseTest.java b/src/test/java/demoqa/tests/BaseTest.java
+--- a/src/test/java/demoqa/tests/BaseTest.java	
++++ b/src/test/java/demoqa/tests/BaseTest.java	
+@@ -16,9 +16,12 @@
+     public static void beforeAll() {
+ 
+         Configuration.baseUrl = "https://demoqa.com";
+-        Configuration.browser = "chrome";
+-        Configuration.browserSize = "1920x1080";
++        String browser = System.getProperty("browser", "chrome");
++        //   Configuration.browser = "chrome";
++        //   Configuration.browserSize = "1920x1080";
++        String browserSize = System.getProperty("windowSize", "1920x1080");
+         Configuration.pageLoadTimeout = 90000;
++        String version = System.getProperty("version", "100");
+         Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
+ 
+         DesiredCapabilities capabilities = new DesiredCapabilities();
+@@ -27,7 +30,6 @@
+                 "enableVideo", true
+         ));
+         Configuration.browserCapabilities = capabilities;
+-
+     }
+     @AfterAll
+     public static void afterAll() {
