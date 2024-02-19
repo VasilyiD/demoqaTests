@@ -9,7 +9,8 @@ public class RegistrationFormTests extends BaseTest {
     @Tag("remote")
     void registrationValidDataTest() {
 
-        registrationPage.openPage()
+        registrationPage
+                .openPage()
                 .setFirstName(testData.userName)
                 .setLastName(testData.userLastName)
                 .setEmail(testData.userEmail)

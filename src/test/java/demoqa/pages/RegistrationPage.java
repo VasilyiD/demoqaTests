@@ -29,11 +29,12 @@ public class RegistrationPage {
 
 
     public RegistrationPage openPage() {
-        open("https://demoqa.com/automation-practice-form");
+        open("/automation-practice-form");
         $(".practice-form-wrapper").shouldHave(text(TITLE_TEXT));
         executeJavaScript("$('#fixedban').remove()");
         executeJavaScript("$('footer').remove()");
-        $(".fc-button-label").shouldHave(text("Consent")).click();
+        executeJavaScript("$('#adplus-anchor').remove()");
+        // $(".fc-button-label").shouldHave(text("Consent")).click();
 
         return this;
     }

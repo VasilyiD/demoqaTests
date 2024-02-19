@@ -1,5 +1,4 @@
 package demoqa.tests;
-import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import demoqa.pages.RegistrationPage;
 import io.qameta.allure.selenide.AllureSelenide;
@@ -7,6 +6,9 @@ import org.junit.jupiter.api.*;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import java.util.Map;
 import demoqa.helpers.Attach;
+
+import static com.codeborne.selenide.Configuration.*;
+
 public class BaseTest {
 
     RegistrationPage registrationPage = new RegistrationPage();
@@ -15,32 +17,27 @@ public class BaseTest {
     @BeforeAll
     public static void beforeAll() {
 
-        Configuration.baseUrl = "https://demoqa.com";
-        String browser = System.getProperty("browser", "chrome");
-        //   Configuration.browser = "chrome";
-        //   Configuration.browserSize = "1920x1080";
-        String browserSize = System.getProperty("windowSize", "1920x1080");
-        Configuration.pageLoadTimeout = 90000;
-        String version = System.getProperty("version", "100");
-        String remote = System.getProperty("remote","ya.ru");
-         // Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
+        baseUrl = "https://demoqa.com";
+        pageLoadTimeout = 90000;
+        browser = System.getProperty("browser", "chrome");
+        browserSize = System.getProperty("browserSize", "1920x1080");
+        browserVersion = System.getProperty("browserVersion", "100.0");
+        remote = System.getProperty("remote","https://user1:1234@selenoid.autotests.cloud/wd/hub");
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options", Map.<String, Object>of(
                 "enableVNC", true,
                 "enableVideo", true
         ));
-        Configuration.browserCapabilities = capabilities;
+        browserCapabilities = capabilities;
+        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
     }
 
     @AfterAll
     public static void afterAll() {
         System.out.println("TEST COMPLETED");
     }
-    @BeforeEach
-    void addListener() {
-        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
-    }
+
     @AfterEach
     void addAttachments() {
         Attach.screenshotAs("Last screenshot");
